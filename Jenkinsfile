@@ -7,7 +7,7 @@ pipeline {
                 // Clean and build the Maven project
                 sh 'mvn --version'
                 sh 'java --version'
-                sh 'sudo mvn clean install'
+                sh 'mvn clean install'
             }
         }
 
