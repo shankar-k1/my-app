@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'maven:4.0.0'}  }
+    agent { docker { image 'maven:3.9.7'}  }
 
     stages {
         stage('First build in pipeline mode') {
