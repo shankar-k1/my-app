@@ -7,7 +7,6 @@ pipeline {
                 // Clean and build the Maven project
                 sh 'mvn --version'
                 sh 'java --version'
-                sh 'docker --version'
                 sh 'mvn clean install'
             }
         }
